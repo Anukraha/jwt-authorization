@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import DataTableComponent from "./dataTable";
+import DataTableComponent from "./dataTable";
 import UserService from "../services/user.service";
 import EventBus from "../common/EventBus";
 
@@ -41,7 +41,7 @@ export default class BoardUser extends Component {
       <div className="container">
         <header className="jumbotron">
           <h3>{this.state.content}</h3>
-          {/* <DataTableComponent/> */}
+          <DataTableComponent/> 
         </header>
       </div>
     );
